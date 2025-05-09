@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0a0f3c, #2563eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.drop-area {
+  border: 2px dashed #2563eb;
+  padding: 30px;
+  border-radius: 16px;
+  background: #f9fafe;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.drop-area:hover {
+  background: #eaf3ff;
+}
+
+.drop-area p {
+  color: #444;
+  font-size: 16px;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.preview {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #1e48c1;
+}
+
+h2 {
+  color: #1e1e1e;
+  margin-top: 30px;
+  font-size: 22px;
+}
